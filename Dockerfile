@@ -40,7 +40,7 @@ LABEL run="docker run -d --privileged --name NAME \
 --restart=always IMAGE /bin/rsyslog.sh"
 
 #labels for container catalog
-LABEL summary="A containerized version of the rsyslog utility for Red Hat Enterprise Linux 7.  The rsyslog container runs on a Red Hat Enterprise Linux 7 Atomic host to collect logs from various services.  The rsyslog container leverages the atomic command for installation, activation and management."
+LABEL summary="A containerized version of the rsyslog utility.  The rsyslog container runs on a Red Hat Enterprise Linux 7 Atomic host to collect logs from various services.  The rsyslog container leverages the atomic command for installation, activation and management."
 LABEL description="Rsyslogd is a system utility providing support for message logging. Support of both internet and unix domain sockets enables this utility to support both local and remote logging."
 LABEL io.k8s.display-name="Rsyslog"
 LABEL io.openshift.expose-services=""
